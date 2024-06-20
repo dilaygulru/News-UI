@@ -1,0 +1,133 @@
+* {
+    font-family: "Playfair Display", serif;
+}
+
+body > footer {
+    height:151px;
+}
+
+main{
+    background-color: #fcf8eb;
+}
+
+html {
+    background-color: #fcf8eb;
+}
+
+nav {
+    background-color: #faf0d4;
+    
+}
+
+footer {
+    background-color: #faf0d4;
+}
+
+.navbar-brand {
+    padding-left: 30px;
+}
+
+.dropdown-menu {
+    background-color: #faf0d4;
+}
+
+.dropdown-item:hover {
+    background-color: #fcf8eb;
+}
+
+.navbar-toggler {
+    margin-right: 30px;
+}
+
+.bg-light {
+    background-image: url('resimler/4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.marquee-container {
+    
+    background-color: rgb(197, 191, 172);
+    padding: 6px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    letter-spacing:10;
+  }
+  
+  @media (max-width: 576px) {
+    .marquee-container {
+      font-size: 10px;
+    }
+  }
+  
+  .currency-pair {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #3e3d37;
+    border-radius: 15px;
+  }
+  
+  .currency-value {
+    font-weight: bold;
+    font-family: serif;
+  }
+  
+  .currency-pair.rise {
+    color: #18642a;
+  }
+  
+  .currency-pair.fall {
+    color: #731a23;
+  }
+  
+  .currencyRates {
+    animation: blink 5s infinite; 
+  }
+
+  @keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.2;
+    }
+}
+
+#currencyRates {
+    animation: blink 5s infinite;
+}
+
+  
+  .up{
+    text-align: right;
+    justify-content: right;
+    display: flex;
+    margin-top: 100px;
+  }
+
+  ::selection {
+    color: #000000;
+    background-color: rgb(197, 191, 172);
+    -webkit-text-fill-color: #000000;
+  }
+
+  .btn-light-brown {
+    background-color: rgb(197, 191, 172);
+    border-radius: 15px;
+}
+
+.our_logo {
+  background-image: url(resimler/looogo.jpg);
+  width: auto; 
+  height: 200px; 
+  width: 200px;
+  display: block; 
+  margin: 0 auto; 
+  background-size: cover;
+  border-radius: 100px;
+}

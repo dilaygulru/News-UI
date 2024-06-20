@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Lens</title>
+    <link rel="icon" href="resimler/looogo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="news.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <div class="marquee-container">
+        <div class="currency-pair rise" id="currencyRates">
+            <span class="currency-value">USD 32.4742 &#8593;</span>
+        </div>
+        <div class="currency-pair fall" id="currencyRates">
+            <span class="currency-value">AUD 21.0705 &#8595;</span>
+        </div>
+        <div class="currency-pair fall" id="currencyRates">
+            <span class="currency-value">DKK 4.6467 &#8595;</span>
+        </div>
+        <div class="currency-pair fall" id="currencyRates">
+            <span class="currency-value">EUR 34.7084 &#8595;</span>
+        </div>
+        <div class="currency-pair rise" id="currencyRates">
+            <span class="currency-value">JPY 20.9111 &#8593;</span>
+        </div>
+        <div class="currency-pair rise" id="currencyRates">
+            <span class="currency-value">QAR 8.8532 &#8593;</span>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="index.html">Global Lens</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        News
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="worldNews.html">World</a>
+                        <a class="dropdown-item" href="healthNews.html">Health</a>
+                        <a class="dropdown-item" href="sportsNews.html">Sports</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutUs.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="aboutimg"></div>
+        <br><br>
+        <div class="container us">
+            <div class="row">
+                <h2 class="pb-3 mb-4 border-bottom">About Us</h2>
+                <div class="col-lg-2">
+
+                    <h4>Dilay Gülru Özak</h4>
+                    <p>Front-end Developer of Global Lens</p>
+                    <h6>B231202371</h6>
+
+                </div>
+                <div class="col-lg-3">
+
+                    <h4>Osman Özdemir</h4>
+                    <p>Front-end Developer of Global Lens</p>
+                    <h6>B211202048</h6>
+
+                </div>
+                <div class="col-lg-2 our_logo"></div>
+                <div class="col-lg-3">
+
+                    <h4>Kayra Kaan Kabakçıoğlu</h4>
+                    <p>Designer of Global Lens</p>
+                    <h6>B231202350</h6>
+
+                </div>
+                <div class="col-lg-2">
+
+                    <h4>Yusuf Buğra Kılıç</h4>
+                    <p>Designer of Global Lens</p>
+                    <h6>B231202355</h6>
+
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <h2 class="pb-3 mb-4" style="display: flex; justify-content: center; text-align: center;">Contact Us</h2>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12037.84935564377!2d28.974770505622903!3d41.03701747492541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7650656bd63%3A0x8ca058b28c20b6c3!2zVGFrc2ltIE1leWRhbsSxLCDFnmVoaXQgTXVodGFyLCAzNDQzNSBCZXlvxJ9sdS_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1714253959179!5m2!1str!2str"
+                width="1400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <br><br>
+
+        <div class="container">
+            <div class="row">
+                <form class="row col-md-8" action="index.html">
+                    <div class="col-md-6 mb-3" style="width: 300px;">
+                        <label for="firstName">First name</label>
+                        <input type="text" class="form-control" placeholder="First name" value="">
+                    </div>
+                    <div class="col-md-6 mb-3" style="width: 300px">
+                        <label for="lastName">Last name</label>
+                        <input type="text" class="form-control" placeholder="Last name" value="">
+                    </div>
+                    <div class="mb-3" style="width: 600px">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" placeholder="xxx@example.com">
+                    </div>
+                    <div>
+                        <br>
+                        <input class="btn btn-light-brown mr-2" onclick=a() type="submit" value="Submit &raquo;">
+                    </div>
+                </form>
+                
+                <div class="col-md-4">
+                    <br>
+                    <h2>Send us e-mail!</h2>
+                    <h4>Don't forget to send us an e-mail to subscribe.</h4>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </main>
+
+    <footer class="py-3 container-fluid">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="worldNews.html" class="nav-link px-2 text-muted">World News</a></li>
+            <li class="nav-item"><a href="sportsNews.html" class="nav-link px-2 text-muted">Sport News</a></li>
+            <li class="nav-item"><a href="healthNews.html" class="nav-link px-2 text-muted">Health News</a></li>
+            <li class="nav-item"><a href="aboutUs.html" class="nav-link px-2 text-muted">About Us</a></li>
+        </ul>
+        <p class="text-center text-muted">© Copyright 2024 - GLOBAL LENS</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+        <script>
+            function a(){
+                alert('Mail sent successfully!');
+            }
+        </script>
+</body>
+
+</html>
+

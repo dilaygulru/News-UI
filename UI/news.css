@@ -1,0 +1,148 @@
+* {
+    font-family: "Playfair Display", serif;
+}
+
+body>footer {
+    height: 151px;
+}
+
+main,html,body {
+    background-color: #fcf8eb;
+}
+
+nav,footer {
+    background-color: #faf0d4;
+
+}
+
+.navbar-brand {
+    padding-left: 30px;
+}
+
+.dropdown-menu {
+    background-color: #faf0d4;
+}
+
+.dropdown-item:hover {
+    background-color: #fcf8eb;
+}
+
+.navbar-toggler {
+    margin-right: 30px;
+}
+
+.aboutimg {
+    background-image: url("resimler/istanbul.jpg");
+    top: 0px; 
+    padding: 0%;
+    width: auto; 
+    height: 400px; 
+    display: block; 
+    margin: 0 auto; 
+    background-size: cover;
+}
+
+
+
+.marquee-container {
+
+    background-color: rgb(197, 191, 172);
+    padding: 6px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    letter-spacing: 10;
+}
+
+@media (max-width: 576px) {
+    .marquee-container {
+        font-size: 10px;
+    }
+}
+
+.currency-pair {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #3e3d37;
+    border-radius: 15px;
+}
+
+.currency-value {
+    font-weight: bold;
+    font-family: serif;
+}
+
+.currency-pair.rise {
+    color: #18642a;
+}
+
+.currency-pair.fall {
+    color: #731a23;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.2;
+    }
+}
+
+#currencyRates {
+    animation: blink 5s infinite;
+}
+
+
+::selection {
+    color: #000000;
+    background-color: rgb(197, 191, 172);
+    -webkit-text-fill-color: #000000;
+}
+
+.up1 {
+    text-align: right;
+    justify-content: right;
+    display: flex;
+    margin-top: 30px;
+}
+
+@media (min-width: 992px) {
+    .card-img-right {
+        float: right;
+        margin-left: 15px;
+    }
+}
+
+.btn-light-brown {
+
+    background-color: rgb(197, 191, 172);
+    border-radius: 15px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+
+}
+
+.us{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.our_logo {
+    background-image: url(resimler/looogo.jpg);
+    width: auto; 
+    height: 200px; 
+    width: 200px;
+    display: block; 
+    margin: 0 auto; 
+    background-size: cover;
+    border-radius: 100px;
+}
